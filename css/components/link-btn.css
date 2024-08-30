@@ -1,0 +1,35 @@
+.link-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+    padding: 0.8em 1.2em;
+    width: min-content;
+    border-radius: 100em;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: transform 0.28s ease;
+}
+
+.link-btn:not(.github-btn) {
+    border: 0.08em solid rgb(0, 0, 0);
+    filter: invert(100%);
+}
+
+.link-btn:hover {
+    transform: scale(1.04);
+}
+
+.link-btn .icon {
+    height: 1.2em;
+}
+
+.contacts-container .link-btn {
+    padding: 1.2em 2em;
+}
+
+@media (max-width: 960px) {
+    .contacts-container .link-btn {
+        padding: 0.8em 1.2em;
+    }
+}

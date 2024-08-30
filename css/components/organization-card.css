@@ -1,0 +1,70 @@
+.organization-card.card {
+    position: relative;
+    overflow: visible;
+    width: 44%;
+}
+
+.organization-card:nth-child(odd) {
+    left: 0;
+}
+
+.organization-card:nth-child(even) {
+    left: 56%;
+}
+
+.organization-card .badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 0.4em solid rgb(235, 235, 235);
+    border-radius: 100em;
+    width: 14%;
+    aspect-ratio: 1;
+    background-color: rgb(245, 245, 245);
+}
+
+.organization-card:nth-child(odd) .badge {
+    left: 113.64%;
+}
+
+.organization-card:nth-child(even) .badge {
+    left: -13.64%;
+}
+
+.organization-card .badge .icon {
+    width: 28%;
+}
+
+.organization-card .dates {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-wrap: nowrap;
+}
+
+.organization-card:nth-child(odd) .dates {
+    left: calc(113.64% + 12em);
+}
+
+.organization-card:nth-child(even) .dates {
+    left: calc(-13.64% - 12em);
+}
+
+@media (max-width: 960px) {
+    .organization-card.card {
+        left: 0;
+        width: 100%;
+    }
+
+    .organization-card.card .badge {
+        display: none;
+    }
+
+    .organization-card.card .dates {
+        position: static;
+        transform: none;
+    }
+}

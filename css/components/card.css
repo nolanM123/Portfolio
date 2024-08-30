@@ -1,0 +1,31 @@
+.card:not(.skill-card) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+    position: relative;
+    border: 0.01em solid rgb(235, 235, 235);
+    border-radius: 0.6em;
+    background-color: rgb(245, 245, 245);
+}
+
+.card .role,
+.card .description,
+.card .achievements,
+.card .achievement,
+.card .experience {
+    margin-bottom: 0.4em;
+}
+
+.card .role {
+    color: rgb(16, 133, 228);
+}
+
+.card .achievements {
+    margin: 1em 0em;
+    padding-left: 1.4em;
+}
+
+.card .dates {
+    color: rgb(125, 125, 125);
+}

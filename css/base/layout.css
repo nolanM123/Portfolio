@@ -101,7 +101,7 @@ section {
     background-color: rgb(16, 133, 228);
 }
 
-@media (max-width: 960px) {
+@media (max-width: 720px) {
     #hero-section .content {
         width: 100%;
     }

@@ -70,7 +70,7 @@
     text-align: center;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 720px) {
     .skill-card.card {
         width: 4em;
         min-width: unset;

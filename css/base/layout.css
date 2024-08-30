@@ -110,14 +110,16 @@ section {
         font-size: larger;
     }
 
-    #contacts-section .content,
-    .card-container {
-        width: 100%;
-    }
-
     .contacts-container {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+    }
+}
+
+@media (max-width: 960px) {
+    #contacts-section .content,
+    .card-container {
+        width: 100%;
     }
 }

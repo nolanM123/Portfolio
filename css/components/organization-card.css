@@ -53,7 +53,7 @@
     left: calc(-13.64% - 12em);
 }
 
-@media (max-width: 720px) {
+@media (max-width: 960px) {
     .organization-card.card {
         left: 0;
         width: 100%;

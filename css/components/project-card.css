@@ -54,7 +54,7 @@
     transform: rotate(-2.6deg);
 }
 
-@media (max-width: 720px) {
+@media (max-width: 960px) {
     .project-card.card .content {
         width: 100%;
     }

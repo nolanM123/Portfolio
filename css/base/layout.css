@@ -37,8 +37,8 @@ section {
 }
 
 #hero-section .thumbnail {
-    width: 6em;
-    height: 6em;
+    width: 8em;
+    height: 8em;
     border: 0.2em solid #fff;
     border-radius: 5em;
 }
@@ -55,6 +55,15 @@ section {
     justify-content: center;
     gap: 1em;
     width: 60%;
+}
+
+#contacts-section .content button[type="submit"]:active {
+    background-color: rgb(16, 133, 228);
+    color: #fff;
+}
+
+#contacts-section .content button[type="submit"]:active .icon {
+    filter: invert(100%);
 }
 
 .link-btn-container {

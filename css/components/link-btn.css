@@ -5,18 +5,29 @@
     padding: 0.8em 1.2em;
     width: min-content;
     border-radius: 100em;
-    background-color: #fff;
-    color: rgb(0, 0, 0);
+    background-color: rgb(245, 245, 245);
+    color: #000;
     text-decoration: none;
     transition: transform 0.28s ease;
 }
 
 .link-btn:not(.github-btn) {
+    background-color: #000;
+    color: #fff;
+}
+
+.link-btn:active .icon,
+.link-btn:not(.github-btn) .icon {
     filter: invert(100%);
 }
 
 .link-btn:hover {
     transform: scale(1.04);
+}
+
+.link-btn:active {
+    background-color: rgb(16, 133, 228);
+    color: #fff;
 }
 
 .link-btn .icon {

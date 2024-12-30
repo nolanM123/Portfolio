@@ -1,7 +1,7 @@
 export const contacts = [
     {
         platform: "Google",
-        link: "#contact-section",
+        link: "#contacts-section",
         icon: "./images/icons/google-icon.svg",
     },
     {

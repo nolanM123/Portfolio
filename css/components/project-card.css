@@ -32,11 +32,6 @@
     margin-bottom: 1.4em;
 }
 
-.project-card .link-btn-container .link-btn.github-btn {
-    border: 0.08em solid rgb(0, 0, 0);
-    background-color: transparent;
-}
-
 .project-card .preview {
     position: absolute;
     top: 6%;

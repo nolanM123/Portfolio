@@ -1,5 +1,14 @@
 export const experiences = [
     {
+        company: "The Mustard Seed",
+        role: "Service Desk Technician",
+        dates: "October 2024 - May 2025",
+        responsibilities: [
+            "Provided IT support by troubleshooting hardware/software issues, maintaining systems and networks, managing technical tickets, and collaborating on updates to ensure seamless operations.",
+            "Trained staff on technology tools while upholding data confidentiality and security policies.",
+        ]
+    },
+    {
         company: "Grey Eagle Resort & Casino",
         role: "Usher",
         dates: "September 2023 - January 2024",

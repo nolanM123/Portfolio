@@ -12,7 +12,6 @@
 }
 
 .link-btn:not(.github-btn) {
-    border: 0.08em solid rgb(0, 0, 0);
     filter: invert(100%);
 }
 

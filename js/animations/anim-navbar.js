@@ -15,9 +15,8 @@ export function initNavbarAnimation() {
 
     function moveHighlight($target) {
         const viewportWidth = $(window).width();
-        const isSmallScreen = viewportWidth <= 480;
-        
-        const paddingX = isSmallScreen ? 0 : $target.outerWidth() / 3;
+        const isSmallScreen = viewportWidth <= 600;
+        const paddingX = isSmallScreen ? 0 : $target.outerWidth() / 4;
         const paddingY = isSmallScreen ? 0 : $target.outerHeight() / 4;
 
         $navHighlight.css({
